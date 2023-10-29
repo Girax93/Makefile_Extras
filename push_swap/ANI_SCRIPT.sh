@@ -858,11 +858,11 @@ for (( i=0; i<$length; i++ )); do
 done
 echo -en "                       "
 write_yellow "(click any key to continue...)"
-./extras/READ_COMMAND.sh
-./extras/ANI_AWAY_SCRIPT.sh
+./Makefile_Extras/push_swap/READ_COMMAND.sh
+./Makefile_Extras/push_swap/ANI_AWAY_SCRIPT.sh
 clear
 for ((i=0; i<30; i++)); do
 	echo -e " "
 done
 echo -e "${BLUE}(click any key to continue...)${NO_COLOR}"
-./extras/READ_COMMAND.sh
+./Makefile_Extras/push_swap/READ_COMMAND.sh

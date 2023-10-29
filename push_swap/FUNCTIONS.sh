@@ -8,7 +8,7 @@ function write_yellow() {
     local replacement="${target_color}${target}${YELLOW}"  # replace the target word with the specified color, then switch back to yellow
     str=${str//${target}/${replacement}}  # replace all instances of the target word in str
 
-    ./extras/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
+    ./Makefile_Extras/push_swap/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
     sleep 0.1  # Wait a moment to ensure the background process has started and PID has been written
     PID1=$(cat "pid.txt")  # Read the PID from the file
 
@@ -32,7 +32,7 @@ function write_red() {
     local replacement="${target_color}${target}${RED}"  # replace the target word with the specified color, then switch back to yellow
     str=${str//${target}/${replacement}}  # replace all instances of the target word in str
 
-    ./extras/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
+    ./Makefile_Extras/push_swap/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
     sleep 0.1  # Wait a moment to ensure the background process has started and PID has been written
     PID1=$(cat "pid.txt")  # Read the PID from the file
 
@@ -56,7 +56,7 @@ function write_blue() {
     local replacement="${target_color}${target}${BLUE}"  # replace the target word with the specified color, then switch back to yellow
     str=${str//${target}/${replacement}}  # replace all instances of the target word in str
 
-    ./extras/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
+    ./Makefile_Extras/push_swap/PLAY_WRITE.sh &  # Start PLAY_WRITE.sh in the background
     sleep 0.1  # Wait a moment to ensure the background process has started and PID has been written
     PID1=$(cat "pid.txt")  # Read the PID from the file
 

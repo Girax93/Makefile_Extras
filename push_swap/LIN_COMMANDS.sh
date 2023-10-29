@@ -20,7 +20,7 @@ echo -e "${YELLOW}                        |__>            || ||      || ||      
 echo -e " "
 echo -e "${YELLOW}     Ohh no... The Makefile has fallen asleep!                    ${NO_COLOR}"
 echo -e "${YELLOW}     Quickly - hit any key on the keyboard to wake it up!!        ${NO_COLOR}"
-./extras/READ_COMMAND.sh
+./Makefile_Extras/push_swap/READ_COMMAND.sh
 
 clear
 echo -e " "
@@ -47,7 +47,7 @@ echo -e " "
 echo -e " "
 echo -e " "
 echo -e " "
-./extras/PLAY_WINXP.sh
+./Makefile_Extras/push_swap/PLAY_WINXP.sh
 sleep 1
 
 str=" Ohh... nooooo..."
@@ -62,7 +62,7 @@ echo
 
 sleep 2
 echo -en "${YELLOW}                            (click any key to continue...)       ${NO_COLOR}"
-./extras/READ_COMMAND.sh
+./Makefile_Extras/push_swap/READ_COMMAND.sh
 
 clear
 echo -e " "
@@ -102,7 +102,7 @@ echo
 echo
 sleep 2
 echo -en "${YELLOW}                            (click any key to continue...)       ${NO_COLOR}"
-./extras/READ_COMMAND.sh
+./Makefile_Extras/push_swap/READ_COMMAND.sh
 
 clear
 echo -e " "
@@ -163,8 +163,8 @@ while true; do
 		done
 		sleep 4
 		clear
-		./extras/PLAY_SWTHEME.sh &
-		./extras/ANI_SCRIPT.sh
+		./Makefile_Extras/push_swap/PLAY_SWTHEME.sh &
+		./Makefile_Extras/push_swap/ANI_SCRIPT.sh
         break
     else
         echo " Wrong God. Please chroot into your brain and fix it."
@@ -183,8 +183,8 @@ while true; do
 		done
 		sleep 4
 		clear
-		./extras/PLAY_SWTHEME.sh &
-		./extras/ANI_SCRIPT.sh
+		./Makefile_Extras/push_swap/PLAY_SWTHEME.sh &
+		./Makefile_Extras/push_swap/ANI_SCRIPT.sh
 		break
 	fi
 done
