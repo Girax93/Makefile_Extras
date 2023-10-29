@@ -1,6 +1,6 @@
 #!/bin/bash
-source extras/colours.sh
-source extras/FUNCTIONS.sh
+source Makefile_Extras/push_swap/colours.sh
+source Makefile_Extras/push_swap/FUNCTIONS.sh
 
 echo -e " "
 echo -e "${YELLOW}              _                        This is a keyboard.        ${NO_COLOR}"

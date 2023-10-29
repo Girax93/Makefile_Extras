@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOUND_FILE="extras/digityping.wav"
+SOUND_FILE="Makefile_Extras/push_swap/digityping.wav"
 PID_FILE="pid.txt"
 
 if command -v aplay > /dev/null 2>&1; then

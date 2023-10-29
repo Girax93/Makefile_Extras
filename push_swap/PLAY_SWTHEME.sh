@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOUND_FILE="extras/swtheme.wav"
+SOUND_FILE="Makefile_Extras/push_swap/swtheme.wav"
 PID_FILE2="pid2.txt"
 
 if command -v aplay > /dev/null 2>&1; then

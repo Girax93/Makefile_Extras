@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the sound file
-SOUND_FILE="extras/winxp.wav"
+SOUND_FILE="Makefile_Extras/push_swap/winxp.wav"
 
 # Check for 'aplay' (often default on ubuntu)
 if command -v aplay > /dev/null 2>&1; then
